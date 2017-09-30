@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+   <body>
+
+      <table>
+         {% for i in res %}
+
+            <tr>
+               <th> {{ i['Course Code'] }} </th>
+               <td> {{ i['Title'] }} </td>
+                <td> {{ i['Department'] }} </td>
+                <td> {{ i['Title'] }} </td>
+                 <td> {{ i['Description'] }} </td>
+
+
+            </tr>
+
+         {% endfor %}
+      </table>
+
+   </body>
+</html>
